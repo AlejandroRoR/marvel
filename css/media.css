@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+/* Cabecera */
+.cabecera{
+    background-color: #202020;
+}
+
+.logo{
+    text-align: center;
+    border-bottom: #111111 solid 3px;
+}
+
+.logo img{
+    width: 10%;
+}
+
+/* Menu */
+.menu ul a .active{
+    color: white;
+    font-weight: bold;
+    border-bottom: #FF031B 2px solid;
+}
+
+.menu{
+    border-bottom: #FF031B solid 3px;
+    width: 100%;
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 0.4em;
+    margin: 0em 1em;
+    font-size: 22px;
+    transition: all 1s;
+    
+}
+
+.menu ul a:hover{
+    background-color: grey;
+}
+
+.menu ul a:hover li{
+    border-bottom: white 2px solid;
+}
+
+.menu ul a li{
+    list-style: none;
+    border-bottom: #202020 solid 2px;
+    transition: all 1s;
+}
+
+
+/* Contenido */
+.contenido{
+    margin: 2em 0em;
+}
+
+.videos{
+    width: 80%;
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.videos .titulo{
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.videos .titulo h3{
+    font-size: 30px;
+    background-color: #141414;
+    color: white;
+    text-align: left;
+    padding: 20px 50px;
+    border-bottom: #FF031B solid 3px;
+}
+
+.videos section{
+    width: 100%;
+}
+
+.videos section article{
+    background-color: #141414;
+    width: 96.6%;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+    padding-left: 0.2em;
+    box-shadow: 10px 10px 30px 0px #000000;
+    border-radius: 0.5em;
+}
+
+.videos section article .texto{
+    width: 50%;
+}
+
+.videos section article .texto h3{
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 1em;
+    border-bottom: 2px solid red;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.videos section article .texto p{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    color: white;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.videos section article .video{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.videos section article .video video{
+    width: 100%;
+    box-shadow: 10px 10px 30px 0px #000000;
+}
+
+.audios{
+    width: 80%;
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.audios .titulo{
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.audios .titulo h3{
+    font-size: 30px;
+    background-color: #141414;
+    color: white;
+    text-align: left;
+    padding: 20px 50px;
+    border-bottom: #FF031B solid 3px;
+}
+
+.audios section{
+    width: 100%;
+}
+
+.audios section article{
+    background-color: #141414;
+    width: 96.6%;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+    padding-left: 0.2em;
+    box-shadow: 10px 10px 30px 0px #000000;
+    border-radius: 0.5em;
+}
+
+.audios section article .texto{
+    width: 50%;
+}
+
+.audios section article .texto h3{
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 1em;
+
+    padding-bottom: 10px;
+}
+
+.audios section article .texto h4{
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 1em;
+
+    padding-bottom: 10px;
+}
+
+.audios section article .audio{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.audios section article .audio audio{
+    width: 100%;
+    box-shadow: 10px 10px 30px 0px #000000;
+}
+
+
+/* Pie de página */
+.pie{
+    background-color: #202020;
+    border-top: #FF031B solid 3px;
+    width: 100%;
+
+}
+
+.pie .copyright{
+    display: inline-block;
+    color: white;
+    width: 74%;
+}
+
+.pie .copyright p{
+    float: left;
+    margin-top: 0.8em;
+    margin-left: 2em;
+}
+
+.pie .copyright img{
+    float: left;
+    width: 40px;
+    margin-left: 7em;
+    
+}
+
+.pie .social{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+}
+
+.pie .social h4{
+    color: white;
+    margin-bottom: 1em;
+}
+
+.pie .social a{
+    margin: 0em 2em;
+}
+
+.pie .social a img{
+    transition: all 1s;
+}
+
+.pie .social a img:hover{
+    transform: scale(1.2);
+}
+
+.pie .social .facebook img{
+    width: 27px;
+}
+
+.pie .social .twitter img{
+    width: 44px;
+}
+
+.pie .social .youtube img{
+    width: 50px;
+}

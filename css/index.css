@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+/* Cabecera */
+.cabecera{
+    background-color: #202020;
+}
+
+.logo{
+    text-align: center;
+    border-bottom: #141414 solid 3px;
+}
+
+.logo img{
+    width: 10%;
+}
+
+/* Menu */
+.menu ul a .active{
+    color: white;
+    font-weight: bold;
+    border-bottom: #FF031B 2px solid;
+}
+
+.menu{
+    border-bottom: #FF031B solid 3px;
+    width: 100%;
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 0.4em;
+    margin: 0em 1em;
+    font-size: 22px;
+    transition: all 1s;
+    
+}
+
+.menu ul a:hover{
+    background-color: grey;
+}
+
+.menu ul a:hover li{
+    border-bottom: white 2px solid;
+}
+
+.menu ul a li{
+    list-style: none;
+    border-bottom: #202020 solid 2px;
+    transition: all 1s;
+}
+
+
+
+/* Contenido */
+.img-inicio img{
+    width: 100%;
+    border-bottom: #FF031B solid 3px;
+}
+
+.descripcion{
+    width: 80%;
+    margin: auto;
+    margin-top: 4em;
+}
+.descripcion h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+.descripcion p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.video{
+    width: 60%;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.video video{
+    width: 100%;
+}
+
+.taquilleras{
+    width: 80%;
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.tDesc{
+    margin-bottom: 4em;
+    width: 100%;
+}
+
+.tDesc h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.tDesc p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.taquilleras section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.taquilleras article{
+    margin: 2.5em;
+    background-color: #141414;
+    border-radius: 1em;
+    box-shadow: 10px 10px 30px 0px #000000;
+    transition: all 1s;
+    width: 300px;
+}
+
+.taquilleras article:hover{
+    transform: scale(1.1);
+}
+
+.taquilleras article a{
+    text-decoration: none;
+}
+
+.taquilleras article a h3{
+    color: white;
+    margin-left: 0.5em;
+    text-align: center;
+    padding: 8px;
+}
+
+.taquilleras img{
+    width: 300px;
+    border-radius: 1em 1em 0em 0em;
+    border-bottom: #FF031B solid 3px;
+}
+
+
+/* Pie de página */
+.pie{
+    background-color: #202020;
+    border-top: #FF031B solid 3px;
+    width: 100%;
+
+}
+
+.pie .copyright{
+    display: inline-block;
+    color: white;
+    width: 74%;
+}
+
+.pie .copyright p{
+    float: left;
+    margin-top: 0.8em;
+    margin-left: 2em;
+}
+
+.pie .copyright img{
+    float: left;
+    width: 40px;
+    margin-left: 7em;
+    
+}
+
+.pie .social{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+}
+
+.pie .social h4{
+    color: white;
+    margin-bottom: 1em;
+}
+
+.pie .social a{
+    margin: 0em 2em;
+}
+
+.pie .social a img{
+    transition: all 1s;
+}
+
+.pie .social a img:hover{
+    transform: scale(1.2);
+}
+
+.pie .social .facebook img{
+    width: 27px;
+}
+
+.pie .social .twitter img{
+    width: 44px;
+}
+
+.pie .social .youtube img{
+    width: 50px;
+}
