@@ -94,6 +94,10 @@
     transform: scale(1.1);
 }
 
+.proximas article a{
+    text-decoration: none;
+}
+
 .proximas article h3{
     color: white;
     margin-left: 0.5em;
