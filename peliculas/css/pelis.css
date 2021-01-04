@@ -227,3 +227,31 @@
 .pie .social .youtube img{
     width: 50px;
 }
+
+/* MEDIA */
+@media (max-width: 1300px){
+    .pie{
+        align-items: center;
+    }
+    .pie .social{
+        width: 100%;
+    }
+    .pie .copyright{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 2em 0em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 860px) {
+    .menu ul a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul a li{
+        width: auto;
+    }
+}
