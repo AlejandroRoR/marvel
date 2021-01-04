@@ -82,15 +82,21 @@
 }
 
 .proximas article{
+    width: 20%;
+    display: flex;
+}
+
+.proximas article .articulo{
     margin: 2.5em;
     background-color: #141414;
     border-radius: 1em;
     box-shadow: 10px 10px 30px 0px #000000;
     width: 224px;
     transition: all 1s;
+    height: 24.7em;
 }
 
-.proximas article:hover{
+.proximas article .articulo:hover{
     transform: scale(1.1);
 }
 
@@ -127,15 +133,21 @@
 }
 
 .peliculas article{
+    width: 20%;
+    display: flex;
+}
+
+.peliculas article .articulo{
     margin: 2.5em;
     background-color: #141414;
     border-radius: 1em;
     box-shadow: 10px 10px 30px 0px #000000;
     width: 224px;
     transition: all 1s;
+    height: 24.7em;
 }
 
-.peliculas article:hover{
+.peliculas article .articulo:hover{
     transform: scale(1.1);
 }
 
@@ -220,4 +232,88 @@
 
 .pie .social .youtube img{
     width: 50px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1700px) {
+    .proximas article{
+        width: 25%;
+        justify-content: center;
+    }
+
+    .peliculas article{
+        width: 25%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1400px) {
+    .proximas article{
+        width: 30%;
+        justify-content: center;
+    }
+
+    .peliculas article{
+        width: 30%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .pie{
+        align-items: center;
+    }
+    .pie .social{
+        width: 100%;
+    }
+    .pie .copyright{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 2em 0em;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .proximas article{
+        width: 50%;
+        justify-content: center;
+    }
+
+    .peliculas article{
+        width: 50%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .proximas section{
+        flex-direction: column;
+    }
+    .proximas article{
+        width: 100%;
+        justify-content: center;
+    }
+    .peliculas section{
+        flex-direction: column;
+    }
+    .peliculas article{
+        width: 100%;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 860px) {
+    .menu ul a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul a li{
+        width: auto;
+    }
 }
